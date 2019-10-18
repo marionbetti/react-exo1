@@ -6,15 +6,18 @@ class Main extends Component {
     offres: [
       {
         titre: "offre1",
-        description: ["item1", "item2", "item3"]
+        description: ["item1", "item2", "item3"],
+        btn: true
       },
       {
         titre: "offre2",
-        description: ["item1", "item2", "item3"]
+        description: ["item1", "item2", "item3", "item3", "item3", "item3"],
+        btn: false
       },
       {
         titre: "offre3",
-        description: ["item1", "item2"]
+        description: ["item1", "item2"],
+        btn: false
       }
     ]
   };
@@ -43,6 +46,7 @@ class Main extends Component {
               key={offre.titre}
               tutu={offre.titre}
               description={offre.description}
+              btn={offre.btn}
             />
           ))}
         </section>
