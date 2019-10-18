@@ -6,4 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## rendu final
 
-<img src="rendu-final.png" alt="">
+<img src="rendu-final-2.png" alt="">
